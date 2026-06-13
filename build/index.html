@@ -72,8 +72,41 @@ function fnBuildTabStrip()
 {
  var szHTML=
   "<html><head><style>.clScroll {font:8pt Courier New;color:"+c_rgszClr[6]+";cursor:default;line-height:10pt;}"+
-  ".clScroll2 {font:10pt Arial;color:"+c_rgszClr[6]+";cursor:default;line-height:11pt;}</style></head>"+
-  "<body onclick=\"event.returnValue=false;\" ondragstart=\"event.returnValue=false;\" onselectstart=\"event.returnValue=false;\" bgcolor="+c_rgszClr[4]+" topmargin=0 leftmargin=0><table cellpadding=0 cellspacing=0 width=100%>"+
+  ".clScroll2 {font:10pt Arial;color:"+c_rgszClr[6]+";cursor:default;line-height:11pt;}</style>
+<style>
+
+.site-menu{
+    background:#111;
+    padding:12px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    position:sticky;
+    top:0;
+    z-index:9999;
+}
+
+.site-menu a{
+    color:white;
+    text-decoration:none;
+    background:#333;
+    padding:8px 14px;
+    border-radius:6px;
+    font-family:Arial,sans-serif;
+}
+
+.site-menu a:hover{
+    background:#555;
+}
+
+</style>
+
+</head>"+
+  "<body onclick=\"event.returnValue=false;\" ondragstart=\"event.returnValue=false;\" onselectstart=\"event.returnValue=false;\" bgcolor="+c_rgszClr[4]+" topmargin=0 leftmargin=0>
+
+<div class='site-menu'>
+
+</div><table cellpadding=0 cellspacing=0 width=100%>"+
   "<tr><td colspan=6 height=1 bgcolor="+c_rgszClr[2]+"></td></tr>"+
   "<tr><td style=\"font:1pt\">&nbsp;<td>"+
   "<td valign=top id=tdScroll class=\"clScroll\" onclick=\"parent.fnFastScrollTabs(0);\" onmouseover=\"parent.fnMouseOverScroll(0);\" onmouseout=\"parent.fnMouseOutScroll(0);\"><a>&#171;</a></td>"+
@@ -93,8 +126,41 @@ function fnBuildTabStrip()
   "<style>A:link,A:visited,A:active {text-decoration:none;"+"color:"+c_rgszClr[3]+";}"+
   ".clTab {cursor:hand;background:"+c_rgszClr[1]+";font:9pt Arial;padding-left:3px;padding-right:3px;text-align:center;}"+
   ".clBorder {background:"+c_rgszClr[2]+";font:1pt;}"+
-  "</style></head><body onload=\"parent.fnInit();\" onselectstart=\"event.returnValue=false;\" ondragstart=\"event.returnValue=false;\" bgcolor="+c_rgszClr[4]+
-  " topmargin=0 leftmargin=0><table id=tbTabs cellpadding=0 cellspacing=0>";
+  "</style>
+<style>
+
+.site-menu{
+    background:#111;
+    padding:12px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    position:sticky;
+    top:0;
+    z-index:9999;
+}
+
+.site-menu a{
+    color:white;
+    text-decoration:none;
+    background:#333;
+    padding:8px 14px;
+    border-radius:6px;
+    font-family:Arial,sans-serif;
+}
+
+.site-menu a:hover{
+    background:#555;
+}
+
+</style>
+
+</head><body onload=\"parent.fnInit();\" onselectstart=\"event.returnValue=false;\" ondragstart=\"event.returnValue=false;\" bgcolor="+c_rgszClr[4]+
+  " topmargin=0 leftmargin=0>
+
+<div class='site-menu'>
+
+</div><table id=tbTabs cellpadding=0 cellspacing=0>";
 
  var iCellCount=(c_lTabs+1)*2;
 
@@ -322,6 +388,35 @@ function fnSetActiveSheet(iSh)
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
 </xml><![endif]-->
+
+<style>
+
+.site-menu{
+    background:#111;
+    padding:12px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    position:sticky;
+    top:0;
+    z-index:9999;
+}
+
+.site-menu a{
+    color:white;
+    text-decoration:none;
+    background:#333;
+    padding:8px 14px;
+    border-radius:6px;
+    font-family:Arial,sans-serif;
+}
+
+.site-menu a:hover{
+    background:#555;
+}
+
+</style>
+
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
@@ -329,6 +424,10 @@ function fnSetActiveSheet(iSh)
  <frame src="index_file/tabstrip.html" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
+
+<div class='site-menu'>
+
+</div>
    <p>La pagina utilizza i frame, ma il browser in uso non li supporta.</p>
   </body>
  </noframes>
