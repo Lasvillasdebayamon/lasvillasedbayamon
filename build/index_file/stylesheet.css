@@ -45,4 +45,7 @@ td
 	mso-rotate:0;}
 .xl65
 	{mso-style-parent:style0;
-	mso-number-format:"General Date";}
+	mso-number-format:"mm\/dd\/yy\\ hh\:mm";}
+.xl66
+	{mso-style-parent:style0;
+	font-weight:700;}
