@@ -1,38 +1,19 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Homepage</title>
 
 <style>
+body { margin:0; font-family:Arial; background:#f4f4f4; }
 
-body {
-    margin:0;
-    font-family: Arial, sans-serif;
-    background:#f4f4f4;
-}
-
-.nav {
-    background:#111;
-    padding:12px;
-    display:flex;
-    flex-wrap:wrap;
-    gap:10px;
-}
-
-.nav a {
-    color:#fff;
-    text-decoration:none;
-    padding:8px 12px;
-    background:#333;
-    border-radius:6px;
-    font-size:14px;
-}
+.nav { background:#111; padding:12px; display:flex; gap:10px; flex-wrap:wrap; }
+.nav a { color:#fff; text-decoration:none; padding:8px 12px; background:#333; border-radius:6px; }
 
 .container {
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
     gap:16px;
     padding:20px;
 }
@@ -44,34 +25,18 @@ body {
     box-shadow:0 4px 12px rgba(0,0,0,0.1);
 }
 
-.img {
-    height:180px;
-    background-size:cover;
-    background-position:center;
-}
+.img { height:180px; background-size:cover; background-position:center; }
 
-.content {
-    padding:12px;
-}
+.content { padding:12px; }
 
-h3 {
-    margin:0 0 8px 0;
-    font-size:18px;
-}
+h3 { margin:0 0 8px 0; }
+p { margin:0; color:#666; }
 
-p {
-    margin:0;
-    font-size:14px;
-    color:#666;
+@media(max-width:600px){
+    .container{grid-template-columns:1fr;}
 }
-
-@media (max-width:600px) {
-    .container {
-        grid-template-columns: 1fr;
-    }
-}
-
 </style>
+
 </head>
 
 <body>
@@ -81,7 +46,31 @@ p {
 </div>
 
 <div class="container">
-
+<div class="card">
+    <div class="img" style="background-image:url('assets/img_Homepage_1.png')"></div>
+    <div class="content">
+        <h3>Untitled</h3>
+        <p></p>
+    </div>
+</div><div class="card">
+    <div class="img" style="background-image:url('assets/img_Homepage_2.png')"></div>
+    <div class="content">
+        <h3>Untitled</h3>
+        <p></p>
+    </div>
+</div><div class="card">
+    <div class="img" style="background-image:url('assets/img_Homepage_3.png')"></div>
+    <div class="content">
+        <h3>Untitled</h3>
+        <p></p>
+    </div>
+</div><div class="card">
+    <div class="img" style="background-image:url('assets/img_Homepage_4.png')"></div>
+    <div class="content">
+        <h3>Untitled</h3>
+        <p></p>
+    </div>
+</div>
 </div>
 
 </body>
