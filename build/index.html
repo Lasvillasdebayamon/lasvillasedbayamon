@@ -1,52 +1,76 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Homepage</title>
 
 <style>
-body { margin:0; font-family:Arial; background:#f4f4f4; }
+body{margin:0;font-family:Arial;background:#f4f4f4}
 
-.nav { background:#111; padding:12px; display:flex; gap:10px; flex-wrap:wrap; }
-.nav a { color:#fff; text-decoration:none; padding:8px 12px; background:#333; border-radius:6px; }
+.nav{
+    background:#111;
+    padding:12px;
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+}
 
-.container {
+.nav a{
+    color:white;
+    text-decoration:none;
+    padding:8px 12px;
+    background:#333;
+    border-radius:6px;
+}
+
+.container{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
     gap:16px;
     padding:20px;
 }
 
-.card {
-    background:#fff;
+.card{
+    background:white;
     border-radius:12px;
     overflow:hidden;
     box-shadow:0 4px 12px rgba(0,0,0,0.1);
 }
 
-.img { height:180px; background-size:cover; background-position:center; }
+.img{
+    height:180px;
+    background-size:cover;
+    background-position:center;
+}
 
-.content { padding:12px; }
+.content{
+    padding:12px;
+}
 
-h3 { margin:0 0 8px 0; }
-p { margin:0; color:#666; }
+h3{margin:0 0 8px 0}
+p{margin:0;color:#666}
 
 @media(max-width:600px){
-    .container{grid-template-columns:1fr;}
+    .container{grid-template-columns:1fr}
 }
 </style>
 
 </head>
-
 <body>
 
 <div class="nav">
-<a href='homepage.html'>Homepage</a><a href='documenti.html'>Documenti</a><a href='prova.html'>Prova</a>
+<a href='homepage.html'>Homepage</a><a href='documenti.html'>Documenti</a>
 </div>
 
 <div class="container">
-
+<div class="card">
+    <div class="img" style="background-image:url('assets/Homepage.png')"></div>
+    <div class="content">
+        <h3>Homepage</h3>
+        <p>Auto-generated from Excel visual layout</p>
+    </div>
+</div>
 </div>
 
 </body>
