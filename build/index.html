@@ -11,15 +11,17 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link rel=File-List href="index_file/filelist.xml">
 <![if !supportTabStrip]>
 <link id="shLink" href="index_file/sheet001.html">
+<link id="shLink" href="index_file/sheet002.html">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=1;
+ var c_lTabs=2;
 
  var c_rgszSh=new Array(c_lTabs);
  c_rgszSh[0] = "Sheet1";
+ c_rgszSh[1] = "Foglio1";
 
 
 
@@ -299,6 +301,10 @@ function fnSetActiveSheet(iSh)
    <x:ExcelWorksheet>
     <x:Name>Sheet1</x:Name>
     <x:WorksheetSource HRef="index_file/sheet001.html"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Foglio1</x:Name>
+    <x:WorksheetSource HRef="index_file/sheet002.html"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="index_file/stylesheet.css"/>
