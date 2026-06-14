@@ -7,11 +7,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta name=ProgId content=Excel.Sheet>
 <meta name=Generator content="Microsoft Excel 15">
 <link rel=File-List href="documenti_file/filelist.xml">
-<style id="lasvillasweb_27951_Styles">
+<style id="lasvillasweb_17985_Styles">
 <!--table
 	{mso-displayed-decimal-separator:"\.";
 	mso-displayed-thousand-separator:"\,";}
-.xl1527951
+.xl1517985
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -31,18 +31,36 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	white-space:nowrap;}
 -->
 </style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
 
+html,body{
+    margin:0;
+    padding:0;
+}
+
+/* =====================================================
+   FIXED MENU
+   ===================================================== */
+
 .site-menu{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+
     background:#111;
+
     padding:12px;
+
     display:flex;
     flex-wrap:wrap;
     gap:10px;
-    position:sticky;
-    top:0;
-    z-index:9999;
+
+    z-index:99999;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.35);
 }
 
 .site-menu a{
@@ -52,10 +70,75 @@ xmlns="http://www.w3.org/TR/REC-html40">
     padding:8px 14px;
     border-radius:6px;
     font-family:Arial,sans-serif;
+    font-size:14px;
 }
 
 .site-menu a:hover{
     background:#555;
+}
+
+/* =====================================================
+   LAST UPDATED
+   ===================================================== */
+
+.site-updated{
+    margin-left:auto;
+    color:#ccc;
+    font-family:Arial,sans-serif;
+    font-size:12px;
+    display:flex;
+    align-items:center;
+}
+
+/* =====================================================
+   PAGE SPACING
+   ===================================================== */
+
+body{
+    padding-top:60px;
+    overflow-x:auto;
+}
+
+/* =====================================================
+   EXCEL PAGE
+   ===================================================== */
+
+.excel-wrapper{
+    width:100%;
+    overflow-x:auto;
+    display:flex;
+    justify-content:center;
+    padding:10px;
+}
+
+/* =====================================================
+   MOBILE
+   ===================================================== */
+
+@media (max-width:768px){
+
+    body{
+        overflow-x:auto;
+    }
+
+    table{
+        transform:scale(.70);
+        transform-origin:top center;
+    }
+
+    .site-menu{
+        gap:6px;
+        padding:8px;
+    }
+
+    .site-menu a{
+        font-size:12px;
+        padding:6px 10px;
+    }
+
+    .site-updated{
+        display:none;
+    }
 }
 
 </style>
@@ -64,12 +147,22 @@ xmlns="http://www.w3.org/TR/REC-html40">
 
 <body>
 
+
 <div class='site-menu'>
+
 <a href='homepage.html'>Homepage</a>
 <a href='documenti.html'>Documenti</a>
 <a href='prova.html'>Prova</a>
 
+
+<div class='site-updated'>
+Updated: 2026-06-14 12:47
 </div>
+
+</div>
+
+<div class='excel-wrapper'>
+
 <!--[if !excel]>&nbsp;&nbsp;<![endif]-->
 <!--Le seguenti informazioni sono state generate dalla pubblicazione guidata
 come pagina Web di Microsoft Excel.-->
@@ -79,13 +172,13 @@ sostituite tutte le informazioni tra i tag DIV.-->
 <!--INIZIO OUTPUT PUBBLICAZIONE GUIDATA COME PAGINA WEB -->
 <!----------------------------->
 
-<div id="lasvillasweb_27951" align=center x:publishsource="Excel">
+<div id="lasvillasweb_17985" align=center x:publishsource="Excel">
 
 <table border=0 cellpadding=0 cellspacing=0 width=64 style='border-collapse:
  collapse;table-layout:fixed;width:48pt'>
  <col width=64 style='width:48pt'>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl1527951 width=64 style='height:15.0pt;width:48pt'></td>
+  <td height=20 class=xl1517985 width=64 style='height:15.0pt;width:48pt'></td>
  </tr>
  <![if supportMisalignedColumns]>
  <tr height=0 style='display:none'>
@@ -100,6 +193,8 @@ sostituite tutte le informazioni tra i tag DIV.-->
 <!----------------------------->
 <!--FINE OUTPUT PUBBLICAZIONE GUIDATA COME PAGINA WEB-->
 <!----------------------------->
+</div>
+
 </body>
 
 </html>
