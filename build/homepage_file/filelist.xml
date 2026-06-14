@@ -1,12 +1,8 @@
 <xml xmlns:o="urn:schemas-microsoft-com:office:office">
  <o:MainFile HRef="../homepage.html"/>
- <o:File HRef="lasvillasweb_14336_image001.png"
-  PublicationID="lasvillasweb_14336"/>
- <o:File HRef="lasvillasweb_14336_image002.png"
-  PublicationID="lasvillasweb_14336"/>
- <o:File HRef="lasvillasweb_14336_image003.png"
-  PublicationID="lasvillasweb_14336"/>
- <o:File HRef="lasvillasweb_14336_image004.png"
-  PublicationID="lasvillasweb_14336"/>
+ <o:File HRef="lasvillasweb_1872_image001.png" PublicationID="lasvillasweb_1872"/>
+ <o:File HRef="lasvillasweb_1872_image002.png" PublicationID="lasvillasweb_1872"/>
+ <o:File HRef="lasvillasweb_1872_image003.png" PublicationID="lasvillasweb_1872"/>
+ <o:File HRef="lasvillasweb_1872_image004.png" PublicationID="lasvillasweb_1872"/>
  <o:File HRef="filelist.xml"/>
 </xml>
