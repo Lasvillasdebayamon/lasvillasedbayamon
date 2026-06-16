@@ -1,8 +1,6 @@
 <xml xmlns:o="urn:schemas-microsoft-com:office:office">
  <o:MainFile HRef="../homepage.html"/>
- <o:File HRef="lasvillasweb_19595_image001.png"
-  PublicationID="lasvillasweb_19595"/>
- <o:File HRef="lasvillasweb_19595_image002.png"
-  PublicationID="lasvillasweb_19595"/>
+ <o:File HRef="lasvillasweb_1450_image001.png" PublicationID="lasvillasweb_1450"/>
+ <o:File HRef="lasvillasweb_1450_image002.png" PublicationID="lasvillasweb_1450"/>
  <o:File HRef="filelist.xml"/>
 </xml>
