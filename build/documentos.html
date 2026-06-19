@@ -7,11 +7,11 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta name=ProgId content=Excel.Sheet>
 <meta name=Generator content="Microsoft Excel 15">
 <link rel=File-List href="documentos_files/filelist.xml">
-<style id="lasvillasweb_14753_Styles">
+<style id="lasvillasweb_20324_Styles">
 <!--table
 	{mso-displayed-decimal-separator:"\.";
 	mso-displayed-thousand-separator:"\,";}
-.xl6514753
+.xl6520324
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -29,7 +29,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl6614753
+.xl6620324
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -47,7 +47,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl6714753
+.xl6720324
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -69,107 +69,32 @@ xmlns="http://www.w3.org/TR/REC-html40">
 -->
 </style>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta charset="UTF-8">
-
 <meta property="og:title" content="Las Villas de Bayamon" />
 <meta property="og:description" content="Projecto web totalmente gratuito" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://las-villas-de-bayamon.onrender.com" />
 <meta property="og:image" content="https://las-villas-de-bayamon.onrender.com/assets/logo.png" />
-
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Las Villas de Bayamon" />
 <meta name="twitter:description" content="Projecto web totalmente gratuito" />
 <meta name="twitter:image" content="https://las-villas-de-bayamon.onrender.com/assets/logo.png" />
 <style>
-
-/* =========================
-   HAMBURGER NAVIGATION
-========================= */
-
-.site-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: #713B3B;
-    z-index: 999999;
-    font-family: Arial, sans-serif;
-}
-
-/* top bar */
-.nav-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 12px 16px;
-    color: white;
-}
-
-/* hamburger button */
-
-.menu-text {
-    font-size: 12px;
-}
-
-.nav-toggle {
-    font-size: 26px;
-    cursor: pointer;
-    user-select: none;
-}
-
-/* menu container */
-.nav-links {
-    display: none;
-    flex-direction: column;
-    background: #5a2f2f;
-    padding: 10px;
-    gap: 6px;
-
-    max-height: 70vh;
-    overflow-y: auto;
-}
-
-/* open state */
-.nav-links.open {
-    display: flex;
-}
-
-/* links */
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 6px;
-    background: rgba(255,255,255,0.12);
-}
-
-.nav-links a:hover {
-    background: rgba(255,255,255,0.25);
-}
-
-/* body offset */
-body {
-    padding-top: 60px;
-    margin: 0;
-}
-
-/* wrapper */
-.excel-wrapper {
-    width: 100%;
-    overflow-x: auto;
-}
-
+.site-nav { position: fixed; top: 0; left: 0; right: 0; background: #713B3B; z-index: 999999; font-family: Arial, sans-serif; }
+.nav-bar { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; color: white; }
+.nav-toggle { font-size: 26px; cursor: pointer; user-select: none; }
+.nav-links { display: none; flex-direction: column; background: #5a2f2f; padding: 10px; gap: 6px; max-height: 70vh; overflow-y: auto; }
+.nav-links.open { display: flex; }
+.nav-links a { color: white; text-decoration: none; padding: 10px; border-radius: 6px; background: rgba(255,255,255,0.12); }
+.nav-links a:hover { background: rgba(255,255,255,0.25); }
+body { padding-top: 60px; margin: 0; }
+.excel-wrapper { width: 100%; overflow-x: auto; }
 </style>
-<script data-goatcounter="https://lasvillasdebayamon.goatcounter.com/count"
-        async
-        src="https://gc.zgo.at/count.js"></script>
+<script data-goatcounter="https://lasvillasdebayamon.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 <script>
 function toggleMenu() {
     const el = document.getElementById('navLinks');
-    if (!el) return;
-    el.classList.toggle('open');
+    if (!el) return; el.classList.toggle('open');
 }
-
 document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.nav-links a').forEach(a => {
         a.addEventListener('click', function () {
@@ -182,23 +107,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <body>
 <div class='site-nav'>
-
-    <div class='nav-bar'>
-
-<div class='nav-toggle' onclick='toggleMenu()'>&#9776;  <span class='menu-text'>Menu</span></div>
-    </div>
-
-    <div class='nav-links' id='navLinks'>
-        <a href='homepage.html'>Homepage</a>
+<div class='nav-bar'>
+<div class='nav-toggle' onclick='toggleMenu()'>&#9776; <span class='menu-text'>Menu</span></div>
+</div>
+<div class='nav-links' id='navLinks'>
+<a href='homepage.html'>Homepage</a>
 <a href='documentos.html'>Documentos</a>
 <a href='n-meros-tiles.html'>Números útiles</a>
 <a href='enlaces-tiles.html'>Enlaces útiles</a>
-<a href='test-2.html'>Test 2</a>
-
-    </div>
+<a href='test-556.html'>Test 556</a>
 
 </div>
-
+</div>
 
 
 <head>
@@ -214,11 +134,11 @@ x\:* {behavior:url(#default#VML);}
 .shape {behavior:url(#default#VML);}
 </style>
 <![endif]-->
-<style id="lasvillasweb_14679_Styles">
+<style id="lasvillasweb_20265_Styles">
 <!--table
 	{mso-displayed-decimal-separator:"\.";
 	mso-displayed-thousand-separator:"\,";}
-.xl1514679
+.xl1520265
 	{padding:0px;
 	mso-ignore:padding;
 	color:black;
@@ -234,7 +154,7 @@ x\:* {behavior:url(#default#VML);}
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl6514679
+.xl6520265
 	{padding:0px;
 	mso-ignore:padding;
 	color:black;
@@ -250,7 +170,7 @@ x\:* {behavior:url(#default#VML);}
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl6614679
+.xl6620265
 	{padding:0px;
 	mso-ignore:padding;
 	color:black;
@@ -266,7 +186,7 @@ x\:* {behavior:url(#default#VML);}
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl6714679
+.xl6720265
 	{padding:0px;
 	mso-ignore:padding;
 	color:black;
@@ -296,7 +216,7 @@ tags will be replaced.-->
 <!--START OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD -->
 <!----------------------------->
 
-<div id="lasvillasweb_14679" align=center x:publishsource="Excel">
+<div id="lasvillasweb_20265" align=center x:publishsource="Excel">
 
 <table border=0 cellpadding=0 cellspacing=0 width=344 style='border-collapse:
  collapse;table-layout:fixed;width:258pt'>
@@ -304,35 +224,35 @@ tags will be replaced.-->
  <col width=103 style='mso-width-source:userset;mso-width-alt:3766;width:77pt'>
  <col width=64 style='width:48pt'>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl1514679 width=177 style='height:15.0pt;width:133pt'></td>
-  <td class=xl1514679 width=103 style='width:77pt'></td>
-  <td class=xl1514679 width=64 style='width:48pt'></td>
+  <td height=20 class=xl1520265 width=177 style='height:15.0pt;width:133pt'></td>
+  <td class=xl1520265 width=103 style='width:77pt'></td>
+  <td class=xl1520265 width=64 style='width:48pt'></td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl1514679 style='height:15.0pt'></td>
-  <td class=xl1514679></td>
-  <td class=xl1514679></td>
+  <td height=20 class=xl1520265 style='height:15.0pt'></td>
+  <td class=xl1520265></td>
+  <td class=xl1520265></td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl1514679 style='height:15.0pt'></td>
-  <td class=xl1514679></td>
-  <td class=xl1514679></td>
+  <td height=20 class=xl1520265 style='height:15.0pt'></td>
+  <td class=xl1520265></td>
+  <td class=xl1520265></td>
  </tr>
  <tr height=25 style='height:18.75pt'>
-  <td height=25 class=xl6514679 style='height:18.75pt'><a name="RANGE!A4">Ultima
+  <td height=25 class=xl6520265 style='height:18.75pt'><a name="RANGE!A4">Ultima
   actualizacion:</a></td>
-  <td class=xl6614679></td>
-  <td class=xl1514679></td>
+  <td class=xl6620265></td>
+  <td class=xl1520265></td>
  </tr>
  <tr height=25 style='height:18.75pt'>
-  <td colspan=2 height=25 class=xl6714679 style='height:18.75pt'>viernes, junio
-  19, 2026 / 00.43</td>
-  <td class=xl1514679></td>
+  <td colspan=2 height=25 class=xl6720265 style='height:18.75pt'>viernes, junio
+  19, 2026 / 01.02</td>
+  <td class=xl1520265></td>
  </tr>
  <tr height=25 style='height:18.75pt'>
-  <td height=25 class=xl6714679 style='height:18.75pt'></td>
-  <td class=xl6714679></td>
-  <td class=xl1514679></td>
+  <td height=25 class=xl6720265 style='height:18.75pt'></td>
+  <td class=xl6720265></td>
+  <td class=xl1520265></td>
  </tr>
  <tr height=20 style='height:15.0pt'>
   <td height=20 style='height:15.0pt' align=left valign=top><!--[if gte vml 1]><v:shapetype
@@ -355,7 +275,7 @@ tags will be replaced.-->
    </v:formulas>
    <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
    <o:lock v:ext="edit" aspectratio="t"/>
-  </v:shapetype><v:shape id="Immagine_x0020_1" o:spid="_x0000_s1025" type="#_x0000_t75"
+  </v:shapetype><v:shape id="Immagine_x0020_1" o:spid="_x0000_s2049" type="#_x0000_t75"
    style='position:absolute;margin-left:2.25pt;margin-top:3.75pt;width:257.25pt;
    height:137.25pt;z-index:1;visibility:visible' o:gfxdata="UEsDBBQABgAIAAAAIQBamK3CDAEAABgCAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbJSRwU7DMAyG
 70i8Q5QralM4IITW7kDhCBMaDxAlbhvROFGcle3tSdZNgokh7Rjb3+8vyWK5tSObIJBxWPPbsuIM
@@ -1096,7 +1016,7 @@ Z2UxLnBuZ1BLAQItABQABgAIAAAAIQC3JyNNFwEAAIcBAAAPAAAAAAAAAAAAAAAAAHegAABkcnMv
 ZG93bnJldi54bWxQSwECLQAUAAYACAAAACEAqiYOvrwAAAAhAQAAHQAAAAAAAAAAAAAAAAC7oQAA
 ZHJzL19yZWxzL3BpY3R1cmV4bWwueG1sLnJlbHNQSwUGAAAAAAYABgCEAQAAsqIAAAAA
 ">
-   <v:imagedata src="_header_temp_files/lasvillasweb_14679_image001.png"
+   <v:imagedata src="_header_temp_files/lasvillasweb_20265_image001.png"
     o:title=""/>
    <x:ClientData ObjectType="Pict">
     <x:SizeWithCells/>
@@ -1106,61 +1026,61 @@ ZHJzL19yZWxzL3BpY3R1cmV4bWwueG1sLnJlbHNQSwUGAAAAAAYABgCEAQAAsqIAAAAA
   </v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;
   position:absolute;z-index:1;margin-left:3px;margin-top:5px;width:343px;
   height:183px'><img width=343 height=183
-  src="_header_temp_files/lasvillasweb_14679_image002.png" v:shapes="Immagine_x0020_1"></span><![endif]><span
+  src="_header_temp_files/lasvillasweb_20265_image002.png" v:shapes="Immagine_x0020_1"></span><![endif]><span
   style='mso-ignore:vglayout2'>
   <table cellpadding=0 cellspacing=0>
    <tr>
-    <td height=20 class=xl1514679 width=177 style='height:15.0pt;width:133pt'></td>
+    <td height=20 class=xl1520265 width=177 style='height:15.0pt;width:133pt'></td>
    </tr>
   </table>
   </span></td>
-  <td class=xl1514679></td>
-  <td class=xl1514679></td>
+  <td class=xl1520265></td>
+  <td class=xl1520265></td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl1514679 style='height:15.0pt'></td>
-  <td class=xl1514679></td>
-  <td class=xl1514679></td>
+  <td height=20 class=xl1520265 style='height:15.0pt'></td>
+  <td class=xl1520265></td>
+  <td class=xl1520265></td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl1514679 style='height:15.0pt'></td>
-  <td class=xl1514679></td>
-  <td class=xl1514679></td>
+  <td height=20 class=xl1520265 style='height:15.0pt'></td>
+  <td class=xl1520265></td>
+  <td class=xl1520265></td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl1514679 style='height:15.0pt'></td>
-  <td class=xl1514679></td>
-  <td class=xl1514679></td>
+  <td height=20 class=xl1520265 style='height:15.0pt'></td>
+  <td class=xl1520265></td>
+  <td class=xl1520265></td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl1514679 style='height:15.0pt'></td>
-  <td class=xl1514679></td>
-  <td class=xl1514679></td>
+  <td height=20 class=xl1520265 style='height:15.0pt'></td>
+  <td class=xl1520265></td>
+  <td class=xl1520265></td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl1514679 style='height:15.0pt'></td>
-  <td class=xl1514679></td>
-  <td class=xl1514679></td>
+  <td height=20 class=xl1520265 style='height:15.0pt'></td>
+  <td class=xl1520265></td>
+  <td class=xl1520265></td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl1514679 style='height:15.0pt'></td>
-  <td class=xl1514679></td>
-  <td class=xl1514679></td>
+  <td height=20 class=xl1520265 style='height:15.0pt'></td>
+  <td class=xl1520265></td>
+  <td class=xl1520265></td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl1514679 style='height:15.0pt'></td>
-  <td class=xl1514679></td>
-  <td class=xl1514679></td>
+  <td height=20 class=xl1520265 style='height:15.0pt'></td>
+  <td class=xl1520265></td>
+  <td class=xl1520265></td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl1514679 style='height:15.0pt'></td>
-  <td class=xl1514679></td>
-  <td class=xl1514679></td>
+  <td height=20 class=xl1520265 style='height:15.0pt'></td>
+  <td class=xl1520265></td>
+  <td class=xl1520265></td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl1514679 style='height:15.0pt'></td>
-  <td class=xl1514679></td>
-  <td class=xl1514679></td>
+  <td height=20 class=xl1520265 style='height:15.0pt'></td>
+  <td class=xl1520265></td>
+  <td class=xl1520265></td>
  </tr>
  <![if supportMisalignedColumns]>
  <tr height=0 style='display:none'>
@@ -1181,7 +1101,6 @@ ZHJzL19yZWxzL3BpY3R1cmV4bWwueG1sLnJlbHNQSwUGAAAAAAYABgCEAQAAsqIAAAAA
 
 
 
-
 <div class='excel-wrapper'>
 
 <!--[if !excel]>&nbsp;&nbsp;<![endif]-->
@@ -1193,28 +1112,28 @@ tags will be replaced.-->
 <!--START OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD -->
 <!----------------------------->
 
-<div id="lasvillasweb_14753" align=center x:publishsource="Excel">
+<div id="lasvillasweb_20324" align=center x:publishsource="Excel">
 
-<table border=0 cellpadding=0 cellspacing=0 width=277 class=xl6614753
+<table border=0 cellpadding=0 cellspacing=0 width=277 class=xl6620324
  style='border-collapse:collapse;table-layout:fixed;width:208pt'>
- <col class=xl6614753 width=277 style='width:208pt'>
+ <col class=xl6620324 width=277 style='width:208pt'>
  <tr height=25 style='height:18.75pt'>
-  <td height=25 class=xl6614753 width=277 style='height:18.75pt;width:208pt'></td>
+  <td height=25 class=xl6620324 width=277 style='height:18.75pt;width:208pt'></td>
  </tr>
  <tr height=25 style='height:18.75pt'>
-  <td height=25 class=xl6514753 style='height:18.75pt'>Documentos utiles</td>
+  <td height=25 class=xl6520324 style='height:18.75pt'>Documentos utiles</td>
  </tr>
  <tr height=25 style='height:18.75pt'>
-  <td height=25 class=xl6614753 style='height:18.75pt'></td>
+  <td height=25 class=xl6620324 style='height:18.75pt'></td>
  </tr>
  <tr height=25 style='height:18.75pt'>
-  <td height=25 class=xl6614753 style='height:18.75pt'>Regolamento de
+  <td height=25 class=xl6620324 style='height:18.75pt'>Regolamento de
   condominio vigente:</td>
  </tr>
  <tr height=25 style='height:18.75pt'>
-  <td height=25 class=xl6714753 style='height:18.75pt'><a
-  href="../../documents/Reglamento%20Enmendado%202004.pdf"><span
-  style='font-size:14.0pt'>pdf download</span></a></td>
+  <td height=25 class=xl6720324 style='height:18.75pt'><a
+  href="../documents/Reglamento%20Enmendado%202004.pdf"><span style='font-size:
+  14.0pt'>pdf download</span></a></td>
  </tr>
  <![if supportMisalignedColumns]>
  <tr height=0 style='display:none'>
@@ -1232,17 +1151,16 @@ tags will be replaced.-->
 </div>
 
 
-
 <head>
 <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
 <meta name=ProgId content=Excel.Sheet>
 <meta name=Generator content="Microsoft Excel 15">
 <link rel=File-List href="_footer_temp_files/filelist.xml">
-<style id="lasvillasweb_14688_Styles">
+<style id="lasvillasweb_20280_Styles">
 <!--table
 	{mso-displayed-decimal-separator:"\.";
 	mso-displayed-thousand-separator:"\,";}
-.xl1514688
+.xl1520280
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -1260,7 +1178,7 @@ tags will be replaced.-->
 	mso-background-source:auto;
 	mso-pattern:auto;
 	white-space:nowrap;}
-.xl6514688
+.xl6520280
 	{padding-top:1px;
 	padding-right:1px;
 	padding-left:1px;
@@ -1292,19 +1210,19 @@ tags will be replaced.-->
 <!--START OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD -->
 <!----------------------------->
 
-<div id="lasvillasweb_14688" align=center x:publishsource="Excel">
+<div id="lasvillasweb_20280" align=center x:publishsource="Excel">
 
 <table border=0 cellpadding=0 cellspacing=0 width=415 style='border-collapse:
  collapse;table-layout:fixed;width:311pt'>
  <col width=415 style='mso-width-source:userset;mso-width-alt:15177;width:311pt'>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl1514688 width=415 style='height:15.0pt;width:311pt'></td>
+  <td height=20 class=xl1520280 width=415 style='height:15.0pt;width:311pt'></td>
  </tr>
  <tr height=20 style='height:15.0pt'>
-  <td height=20 class=xl1514688 style='height:15.0pt'></td>
+  <td height=20 class=xl1520280 style='height:15.0pt'></td>
  </tr>
  <tr height=75 style='height:56.25pt'>
-  <td height=75 class=xl6514688 width=415 style='height:56.25pt;width:311pt'>Las
+  <td height=75 class=xl6520280 width=415 style='height:56.25pt;width:311pt'>Las
   Villas de Bayamon<br />
     projecto informativo gratuito<br />
     2026</td>
@@ -1322,7 +1240,6 @@ tags will be replaced.-->
 <!----------------------------->
 <!--END OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD-->
 <!----------------------------->
-
 
 
 
